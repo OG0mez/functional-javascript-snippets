@@ -13,6 +13,8 @@ All the snippets (in both ways) can be found in the js folder in this repository
 #### Get Object values using an key Array
 Sometimes you want want to go trough an Array and create an Object from the result. One situation might be that you have an Array of Object keys you want to copy from another Object, and you want to loop trough those keys and retrieve their value if present.
 
+*This example shows how you can use [reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce?v=a) to handle Array type data but return only one value.*
+
 ###### Initial thought:
 
 ```JavaScript
